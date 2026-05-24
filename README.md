@@ -67,6 +67,5 @@ Encrypt and decrypt text using the classical Caesar Cipher algorithm.
 ---
 
 ## Author
-Amna Khurram
 
 **Amna Siddiqui**
