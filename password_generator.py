@@ -8,24 +8,27 @@ while True:
     except:
         print("Password length should be an integer!")
 
-UP = input("Do you want uppercase: ").lower()
-LP = input("Do you want lowercase: ").lower()
-SY = input("Do you want symbols: ").lower()
-NUM = input("Do you want numbers: ").lower()
-
 UP_set = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 LP_set = "abcdefghijklmnopqrstuvwxyz"
 SY_set = "~!@#$%^&*()_+{|:=;<>}?`-[]',./"
 NUM_set = "0123456789"
 
-final_pool = []
+def get_choice(text):
+    while True:
+        ans = input(text).lower()
+        if ans in ["yes","no"]:
+            return ans
+        print("I didn't understand")
 
-if UP=="yes":
+
+UP = get_choice("Do you want uppercase: ")
+LP = get_choice("Do you want lowercase: ")
+SY = get_choice("Do you want symbol: ")
+NUM = get_choice("Do you want number: ")
+
+final_pool = []
+if UP == "yes":
     final_pool.extend(UP_set)
-elif UP == "no":
-    pass
-else:
-    print("I didn't understand!")
 if LP=="yes":
     final_pool.extend(LP_set)
 if SY=="yes":
@@ -49,7 +52,8 @@ else:
     password = []
     for char in range(length):
         password.append(random.choice(final_pool))
-        random.shuffle(password)
+    random.shuffle(password)
     final_password = "".join(password)
     print(f"Password is here: {final_password}")
+    print("----------------------------------")
 
