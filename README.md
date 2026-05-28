@@ -1,3 +1,6 @@
+Yeh lo updated professional version of your README (CryptexHub polished + improved flow + cleaner wording) 👇
+
+---
 
 # 🔐 CryptexHub
 
@@ -83,4 +86,6 @@ Encrypt and decrypt messages using classical Caesar Cipher algorithm.
 
 **Amna Siddiqui**
 
-* or **repo description + tags SEO optimized**
+---
+
+
