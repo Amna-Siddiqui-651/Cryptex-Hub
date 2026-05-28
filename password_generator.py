@@ -1,8 +1,13 @@
 import random;
 
 print("------PASSWORD GENERATOR-------")
+while True:
+    try:
+        length = int(input("Enter password length here: "))
+        break
+    except:
+        print("Password length should be an integer!")
 
-length = int(input("Enter password length here: "))
 UP = input("Do you want uppercase: ").lower()
 LP = input("Do you want lowercase: ").lower()
 SY = input("Do you want symbols: ").lower()
@@ -17,6 +22,10 @@ final_pool = []
 
 if UP=="yes":
     final_pool.extend(UP_set)
+elif UP == "no":
+    pass
+else:
+    print("I didn't understand!")
 if LP=="yes":
     final_pool.extend(LP_set)
 if SY=="yes":
@@ -27,12 +36,12 @@ if NUM =="yes":
 if final_pool == []:
     ask = input("You haven't selected any character set!" \
     "Do you want by default password?: ").lower()
-    password = " "
+    password = ""
     if ask == "yes":
         final_pool = LP_set
         for i in range(length):
             password += random.choice(final_pool)
-        print(password)
+        print(f"Password is here: {password}")
     else:
         pass 
 
@@ -41,5 +50,6 @@ else:
     for char in range(length):
         password.append(random.choice(final_pool))
         random.shuffle(password)
-    print("".join(password))
+    final_password = "".join(password)
+    print(f"Password is here: {final_password}")
 
