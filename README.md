@@ -1,6 +1,3 @@
-Yeh lo updated professional version of your README (CryptexHub polished + improved flow + cleaner wording) 👇
-
----
 
 # 🔐 CryptexHub
 
