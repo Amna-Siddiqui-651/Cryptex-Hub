@@ -1,71 +1,86 @@
-# CryptexHub 🔐
 
-CryptexHub is a Python-based cybersecurity toolkit that combines multiple security utilities into one platform.
-The project is designed to provide essential cybersecurity features such as password generation, file encryption, spam email detection, and classical cryptography algorithms.
+# 🔐 CryptexHub
 
-## Modules
+CryptexHub is a Python-based cybersecurity toolkit that combines multiple security utilities into one unified platform.
+The project focuses on building practical cybersecurity tools for learning and portfolio development.
 
-### 1. Password Generator
+It includes utilities such as password generation, file encryption, spam email detection, and classical cryptography algorithms.
 
-Generate strong and customizable passwords using:
+---
+
+## 🧩 Modules
+
+### 1. 🔑 Password Generator (Completed)
+
+Generate strong and customizable passwords with:
 
 * Uppercase letters
 * Lowercase letters
 * Numbers
 * Symbols
+* Input validation
+* Secure random generation logic
 
-### 2. File Encryption
+---
+
+### 2. 🔒 File Encryption (In Progress)
 
 Secure files using encryption techniques to protect sensitive data.
 
-### 3. Spam Email Detector
+---
 
-Detect spam or malicious emails using filtering and classification logic.
+### 3. 📧 Spam Email Detector (Planned)
 
-### 4. Caesar Cipher
-
-Encrypt and decrypt text using the classical Caesar Cipher algorithm.
+Detect spam or malicious emails using filtering and classification techniques.
 
 ---
 
-## Technologies Used
+### 4. 🔐 Caesar Cipher (Planned)
+
+Encrypt and decrypt messages using classical Caesar Cipher algorithm.
+
+---
+
+## 🛠 Technologies Used
 
 * Python
-* Random Library
+* Random module
 * File Handling
-* Cybersecurity Concepts
-* FastAPI *(planned)*
-* GUI Development *(planned)*
+* Cybersecurity fundamentals
+* FastAPI (planned)
+* GUI development (planned)
 
 ---
 
-## Project Goals
+## 🎯 Project Goals
 
 * Build a beginner-friendly cybersecurity toolkit
-* Learn practical security concepts
-* Combine multiple security tools into one project
-* Create a professional portfolio project
+* Apply practical security concepts
+* Combine multiple tools into one project
+* Create a strong portfolio project
 
 ---
 
-## Current Status
+## 📊 Current Status
 
-✅ Password Generator Module Completed
-🔄 Other modules in progress
+* ✅ Password Generator Module Completed
+* 🔄 Other modules in progress
 
 ---
 
-## Future Improvements
+## 🚀 Future Improvements
 
-* GUI Integration
+* GUI Integration (Tkinter / modern UI)
 * FastAPI Backend
-* Database Support
-* Password Strength Checker
-* Advanced Encryption Methods
-* User Authentication System
+* Database integration
+* Password strength checker
+* Advanced encryption methods
+* User authentication system
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 **Amna Siddiqui**
+
+* or **repo description + tags SEO optimized**
