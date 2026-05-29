@@ -20,5 +20,7 @@ def generated_text():
         else:
             print("Invalid input. Please try again!")
 
+    return text, key, mode
+
 generated_text()
 
