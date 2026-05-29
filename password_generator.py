@@ -56,4 +56,3 @@ else:
     final_password = "".join(password)
     print(f"Password is here: {final_password}")
     print("----------------------------------")
-
