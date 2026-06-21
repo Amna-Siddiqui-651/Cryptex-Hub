@@ -22,9 +22,14 @@ Generate strong and customizable passwords with:
 
 ---
 
-### 2. 🔒 File Encryption (In Progress)
+### 2. 🔐 Caesar Cipher (Completed)
 
-Secure files using encryption techniques to protect sensitive data.
+Encrypt and decrypt messages using the Caesar Cipher algorithm with support for:
+
+- Uppercase and lowercase letters  
+- Non-alphabet character preservation  
+- Encryption and decryption modes  
+- Input validation 
 
 ---
 
@@ -34,14 +39,9 @@ Detect spam or malicious emails using filtering and classification techniques.
 
 ---
 
-### 4. 🔐 Caesar Cipher (Completed)
+### 4. 🔒 File Encryption (In Progress)
 
-Encrypt and decrypt messages using the Caesar Cipher algorithm with support for:
-
-- Uppercase and lowercase letters  
-- Non-alphabet character preservation  
-- Encryption and decryption modes  
-- Input validation  
+Secure files using encryption techniques to protect sensitive data. 
 
 ---
 
