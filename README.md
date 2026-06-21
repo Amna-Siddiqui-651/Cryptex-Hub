@@ -1,7 +1,6 @@
-
 # 🔐 CryptexHub
 
-CryptexHub is a Python-based cybersecurity toolkit that combines multiple security utilities into one unified platform.
+CryptexHub is a Python-based cybersecurity toolkit that combines multiple security utilities into one unified platform.  
 The project focuses on building practical cybersecurity tools for learning and portfolio development.
 
 It includes utilities such as password generation, file encryption, spam email detection, and classical cryptography algorithms.
@@ -14,12 +13,12 @@ It includes utilities such as password generation, file encryption, spam email d
 
 Generate strong and customizable passwords with:
 
-* Uppercase letters
-* Lowercase letters
-* Numbers
-* Symbols
-* Input validation
-* Secure random generation logic
+- Uppercase letters  
+- Lowercase letters  
+- Numbers  
+- Symbols  
+- Input validation  
+- Secure random generation logic  
 
 ---
 
@@ -35,54 +34,57 @@ Detect spam or malicious emails using filtering and classification techniques.
 
 ---
 
-### 4. 🔐 Caesar Cipher (Planned)
+### 4. 🔐 Caesar Cipher (Completed)
 
-Encrypt and decrypt messages using classical Caesar Cipher algorithm.
+Encrypt and decrypt messages using the Caesar Cipher algorithm with support for:
+
+- Uppercase and lowercase letters  
+- Non-alphabet character preservation  
+- Encryption and decryption modes  
+- Input validation  
 
 ---
 
 ## 🛠 Technologies Used
 
-* Python
-* Random module
-* File Handling
-* Cybersecurity fundamentals
-* FastAPI (planned)
-* GUI development (planned)
+- Python  
+- Random module  
+- File Handling  
+- Cybersecurity fundamentals  
+- FastAPI (planned)  
+- GUI development (planned)  
 
 ---
 
 ## 🎯 Project Goals
 
-* Build a beginner-friendly cybersecurity toolkit
-* Apply practical security concepts
-* Combine multiple tools into one project
-* Create a strong portfolio project
+- Build a beginner-friendly cybersecurity toolkit  
+- Apply practical security concepts  
+- Combine multiple tools into one project  
+- Create a strong portfolio project  
 
 ---
 
 ## 📊 Current Status
 
-* ✅ Password Generator Module Completed
-* 🔄 Other modules in progress
+- ✅ Password Generator Module Completed  
+- ✅ Caesar Cipher Module Completed  
+- 🔄 Other modules in progress  
 
 ---
 
 ## 🚀 Future Improvements
 
-* GUI Integration (Tkinter / modern UI)
-* FastAPI Backend
-* Database integration
-* Password strength checker
-* Advanced encryption methods
-* User authentication system
+- CLI Menu System for module selection  
+- GUI Integration (Tkinter / modern UI)  
+- FastAPI Backend  
+- Database integration  
+- Password strength checker  
+- Advanced encryption methods  
+- User authentication system  
 
 ---
 
 ## 👨‍💻 Author
 
 **Amna Siddiqui**
-
----
-
-
