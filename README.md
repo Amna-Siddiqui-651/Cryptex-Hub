@@ -75,7 +75,7 @@ Detects spam or malicious emails using filtering and classification techniques.
 
 - ✅ Password Generator Module Completed  
 - ✅ Caesar Cipher Module Completed  
-- 🔄 File Encryption Module In Progress  
+- ✅ File Encryption Module In Progress  
 - 🔄 Other modules in progress  
 
 ---
