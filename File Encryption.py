@@ -30,7 +30,7 @@ def generated_file():
 file_name, key, mode = generated_file()
 
 file = open(file_name , "r")
-content =  file.read()
+content = file.read()
 file.close()
 
 
@@ -47,7 +47,7 @@ for char in content:
             new_char = chr(new_position + ord("A"))
             result += new_char
 
-        if char.islower():
+        elif char.islower():
             position = ord(char) - ord("a")
             new_position = (position + key) % 26
             new_char = chr(new_position + ord("a"))
@@ -55,10 +55,8 @@ for char in content:
     else:
         result += char
 
-        
+new_file_name = "encrypted" + file_name
 
-    
-
-            
-
-
+new_file = open(new_file_name, "w")
+new_filefile.write(result)
+new_file.close()
