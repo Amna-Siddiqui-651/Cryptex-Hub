@@ -1,7 +1,7 @@
 # 🔐 CryptexHub
 
 CryptexHub is a Python-based cybersecurity toolkit that combines multiple security utilities into one unified platform.  
-The project focuses on building practical cybersecurity tools for learning and portfolio development.
+The project focuses on building practical cybersecurity tools for learning, problem-solving, and portfolio development.
 
 It includes utilities such as password generation, file encryption, spam email detection, and classical cryptography algorithms.
 
@@ -11,7 +11,7 @@ It includes utilities such as password generation, file encryption, spam email d
 
 ### 1. 🔑 Password Generator (Completed)
 
-Generate strong and customizable passwords with:
+Generates strong and customizable passwords with:
 
 - Uppercase letters  
 - Lowercase letters  
@@ -24,24 +24,29 @@ Generate strong and customizable passwords with:
 
 ### 2. 🔐 Caesar Cipher (Completed)
 
-Encrypt and decrypt messages using the Caesar Cipher algorithm with support for:
+Implements classical Caesar Cipher encryption and decryption with support for:
 
 - Uppercase and lowercase letters  
 - Non-alphabet character preservation  
 - Encryption and decryption modes  
-- Input validation 
+- Input validation  
 
 ---
 
-### 3. 📧 Spam Email Detector (Planned)
+### 3. 🔒 File Encryption (In Progress)
 
-Detect spam or malicious emails using filtering and classification techniques.
+Encrypts and decrypts file contents using Caesar Cipher logic with:
+
+- File existence validation  
+- File reading and writing handling  
+- Character-level encryption/decryption  
+- Output file generation  
 
 ---
 
-### 4. 🔒 File Encryption (In Progress)
+### 4. 📧 Spam Email Detector (Planned)
 
-Secure files using encryption techniques to protect sensitive data. 
+Detects spam or malicious emails using filtering and classification techniques.
 
 ---
 
@@ -50,6 +55,7 @@ Secure files using encryption techniques to protect sensitive data.
 - Python  
 - Random module  
 - File Handling  
+- String manipulation  
 - Cybersecurity fundamentals  
 - FastAPI (planned)  
 - GUI development (planned)  
@@ -59,9 +65,9 @@ Secure files using encryption techniques to protect sensitive data.
 ## 🎯 Project Goals
 
 - Build a beginner-friendly cybersecurity toolkit  
-- Apply practical security concepts  
-- Combine multiple tools into one project  
-- Create a strong portfolio project  
+- Apply practical security and programming concepts  
+- Combine multiple utilities into a single structured project  
+- Develop a strong portfolio-ready project  
 
 ---
 
@@ -69,6 +75,7 @@ Secure files using encryption techniques to protect sensitive data.
 
 - ✅ Password Generator Module Completed  
 - ✅ Caesar Cipher Module Completed  
+- 🔄 File Encryption Module In Progress  
 - 🔄 Other modules in progress  
 
 ---
@@ -77,10 +84,10 @@ Secure files using encryption techniques to protect sensitive data.
 
 - CLI Menu System for module selection  
 - GUI Integration (Tkinter / modern UI)  
-- FastAPI Backend  
+- FastAPI backend version  
 - Database integration  
 - Password strength checker  
-- Advanced encryption methods  
+- Advanced encryption algorithms  
 - User authentication system  
 
 ---
