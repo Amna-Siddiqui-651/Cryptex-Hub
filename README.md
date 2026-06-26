@@ -33,7 +33,7 @@ Implements classical Caesar Cipher encryption and decryption with support for:
 
 ---
 
-### 3. 🔒 File Encryption (In Progress)
+### 3. 🔒 File Encryption (Completed)
 
 Encrypts and decrypts file contents using Caesar Cipher logic with:
 
