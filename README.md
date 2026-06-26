@@ -1,107 +1,112 @@
 # 🔐 CryptexHub
 
-CryptexHub is a Python-based cybersecurity toolkit that combines multiple security utilities into one unified platform.  
-The project focuses on building practical cybersecurity tools for learning, problem-solving, and portfolio development.
+CryptexHub is a Python-based cybersecurity toolkit that brings together multiple security utilities into one project.
 
-It includes utilities such as password generation, file encryption, spam email detection, and classical cryptography algorithms.
+The purpose of this project is to strengthen Python programming skills by building practical cybersecurity tools while creating a portfolio-ready project.
+
+---
+
+## ✨ Features
+
+- 🔑 Strong Password Generator
+- 🔐 Caesar Cipher Encryption & Decryption
+- 📂 File Encryption & Decryption
+- 📧 Spam Email Detection
+- ✔ Input Validation
+- 📄 File Handling
+- 🛡 Cybersecurity-based Utilities
 
 ---
 
 ## 🧩 Modules
 
-### 1. 🔑 Password Generator (Completed)
-
-Generates strong and customizable passwords with:
-
+### 🔑 Password Generator
+Generate secure and customizable passwords using:
 - Uppercase letters
 - Lowercase letters
 - Numbers
 - Symbols
 - Input validation
-- Secure random generation logic
 
 ---
 
-### 2. 🔐 Caesar Cipher (Completed)
+### 🔐 Caesar Cipher
+Encrypt and decrypt text using the Caesar Cipher algorithm.
 
-Implements classical Caesar Cipher encryption and decryption with support for:
-
-- Uppercase and lowercase letters
+**Features**
+- Encryption
+- Decryption
+- Uppercase support
+- Lowercase support
 - Non-alphabet character preservation
-- Encryption and decryption modes
-- Input validation
 
 ---
 
-### 3. 🔒 File Encryption (Completed)
+### 📂 File Encryption
+Encrypt and decrypt text files using Caesar Cipher logic.
 
-Encrypts and decrypts file contents using Caesar Cipher logic with:
-
+**Features**
 - File existence validation
-- File reading and writing
-- Character-level encryption/decryption
-- Output file generation
+- File reading
+- File writing
+- Character-by-character encryption
+- Automatic output file generation
 
 ---
 
-### 4. 📧 Spam Email Detector (Completed)
+### 📧 Spam Email Detector
+Detect spam emails using keyword-based filtering.
 
-Detects spam emails from both text input and TXT files using keyword-based filtering with:
-
-- Text mode and file mode
+**Features**
+- Text Mode
+- File Mode (TXT)
 - Spam keyword detection
-- TXT file validation
-- File existence checking
 - Case-insensitive matching
 - Spam score calculation
 - Input validation
 
 ---
 
-## 🛠 Technologies Used
+## 🛠 Tech Stack
 
 - Python
-- Random module
+- OS Module
+- Random Module
 - File Handling
 - String Manipulation
-- OS Module
-- Cybersecurity Fundamentals
-- FastAPI (planned)
-- GUI Development (planned)
+- Git & GitHub
 
 ---
 
-## 🎯 Project Goals
+## 📈 Project Status
 
-- Build a beginner-friendly cybersecurity toolkit
-- Apply practical security and programming concepts
-- Combine multiple utilities into a single structured project
-- Develop a strong portfolio-ready project
-
----
-
-## 📊 Current Status
-
-- ✅ Password Generator Module Completed
-- ✅ Caesar Cipher Module Completed
-- ✅ Spam Email Detector Module Completed
-- 🔄 File Encryption Module In Progress
+| Module | Status |
+|---------|--------|
+| Password Generator | ✅ Completed |
+| Caesar Cipher | ✅ Completed |
+| File Encryption | ✅ Completed |
+| Spam Email Detector | ✅ Completed |
 
 ---
 
-## 🚀 Future Improvements
+## 🚀 Future Plans
 
-- CLI Menu System for module selection
-- GUI Integration (Tkinter / Modern UI)
-- FastAPI Backend
-- Database Integration
-- Password Strength Checker
+- CLI Menu System
+- GUI Version
+- FastAPI Integration
+- Database Support
+- Password Strength Analyzer
 - Advanced Encryption Algorithms
-- Machine Learning-based Spam Detection
-- User Authentication System
+- Machine Learning Spam Detection
 
 ---
 
-## 👨‍💻 Author
+## 👩‍💻 Author
 
 **Amna Siddiqui**
+
+Python Developer | Cybersecurity Enthusiast | Open Source Learner
+
+---
+
+⭐ If you like this project, consider giving it a Star.
