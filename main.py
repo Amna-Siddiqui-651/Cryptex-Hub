@@ -1,9 +1,24 @@
-print("IMPORTS DONE")
-
 from modules.caesar_cipher import caesar_cipher;
 from modules.file_encryption import file_encryption;
 from modules.password_generator import password_generator;
 from modules.spam_email_detector import spam_email_detector;
+
+def menu_again():
+    
+    while True:
+        permission = input("Do you want to menu again!").lower()
+
+        if permission == "yes":
+            print("Enjoy The Cryptex-Hub Toolkit!")
+            break
+
+        elif permission == "no":
+            print("Thanks! to using Cryptex-Hub")
+            exit()
+
+        else:
+            print("I didn't understand! Please try again.")
+
 
 print("=====================================")
 print("       WELCOME TO CRYPTEX-HUB       ")
@@ -28,15 +43,19 @@ if menu == "yes":
 
         if choice in ["1", "caesar cipher"]:
             caesar_cipher()
+            menu_again()
 
         elif choice in ["2", "file encryption"]:
             file_encryption()
+            menu_again()
 
         elif choice in ["3", "password generator"]:
             password_generator()
+            menu_again()
         
         elif choice in ["4", "spam email", "spam email detector"]:
             spam_email_detector()
+            menu_again()
 
         elif choice in ["5", "exit"]:
             print("Thankyou! for using Cryptex-Hub.")
