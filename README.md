@@ -1,8 +1,12 @@
+<p align="center">
+  <img src="assets/banner.png" alt="CryptexHub Banner" width="100%">
+</p>
+
 # 🔐 CryptexHub
 
-CryptexHub is a Python-based cybersecurity toolkit that brings together multiple security utilities into one project.
+> **A Python-based Cybersecurity Toolkit built for learning, practicing, and demonstrating cybersecurity concepts through practical command-line utilities.**
 
-The purpose of this project is to strengthen Python programming skills by building practical cybersecurity tools while creating a portfolio-ready project.
+CryptexHub is an open-source Python project that combines multiple cybersecurity utilities into a single command-line toolkit. It was built to strengthen Python programming skills while implementing practical security concepts through real-world mini projects.
 
 ---
 
@@ -11,14 +15,38 @@ The purpose of this project is to strengthen Python programming skills by buildi
 - 🔑 Strong Password Generator
 - 🔐 Caesar Cipher Encryption & Decryption
 - 📂 File Encryption & Decryption
-- 📧 Spam Email Detection
-- ✔ Input Validation
+- 📧 Spam Email Detector
+- ✅ Input Validation
 - 📄 File Handling
-- 🛡 Cybersecurity-based Utilities
+- 🖥️ Interactive CLI Menu
+- 🛡️ Beginner-Friendly Cybersecurity Tools
 
 ---
 
-## 🧩 Modules
+## 📂 Project Structure
+
+```text
+CryptexHub/
+│
+├── assets/
+│   ├── banner.png
+│   └── README.md
+│
+├── modules/
+│   ├── caesar_cipher.py
+│   ├── file_encryption.py
+│   ├── password_generator.py
+│   └── spam_email_detector.py
+│
+├── main.py
+├── README.md
+├── LICENSE
+└── .gitignore
+```
+
+---
+
+## 🚀 Modules
 
 ### 🔑 Password Generator
 Generate secure and customizable passwords using:
@@ -26,6 +54,7 @@ Generate secure and customizable passwords using:
 - Lowercase letters
 - Numbers
 - Symbols
+- Custom password length
 - Input validation
 
 ---
@@ -38,7 +67,7 @@ Encrypt and decrypt text using the Caesar Cipher algorithm.
 - Decryption
 - Uppercase support
 - Lowercase support
-- Non-alphabet character preservation
+- Preserves numbers and special characters
 
 ---
 
@@ -47,8 +76,7 @@ Encrypt and decrypt text files using Caesar Cipher logic.
 
 **Features**
 - File existence validation
-- File reading
-- File writing
+- File reading and writing
 - Character-by-character encryption
 - Automatic output file generation
 
@@ -59,7 +87,7 @@ Detect spam emails using keyword-based filtering.
 
 **Features**
 - Text Mode
-- File Mode (TXT)
+- TXT File Mode
 - Spam keyword detection
 - Case-insensitive matching
 - Spam score calculation
@@ -67,14 +95,15 @@ Detect spam emails using keyword-based filtering.
 
 ---
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
-- Python
-- OS Module
-- Random Module
-- File Handling
-- String Manipulation
-- Git & GitHub
+- 🐍 Python
+- 📂 File Handling
+- ⚙️ OS Module
+- 🎲 Random Module
+- 🔤 String Manipulation
+- 🌿 Git
+- 🌍 GitHub
 
 ---
 
@@ -86,18 +115,44 @@ Detect spam emails using keyword-based filtering.
 | Caesar Cipher | ✅ Completed |
 | File Encryption | ✅ Completed |
 | Spam Email Detector | ✅ Completed |
+| CLI Menu | ✅ Completed |
+
+**Current Version:** **v1.0**
 
 ---
 
-## 🚀 Future Plans
+## 🛣️ Roadmap
 
-- CLI Menu System
-- GUI Version
-- FastAPI Integration
-- Database Support
-- Password Strength Analyzer
-- Advanced Encryption Algorithms
-- Machine Learning Spam Detection
+Planned improvements for future releases:
+
+- 🎨 GUI Version
+- ⚡ FastAPI Integration
+- 🗄️ Database Support
+- 🔐 Password Strength Analyzer
+- 🔑 Advanced Encryption Algorithms
+- 🤖 Machine Learning Spam Detection
+
+---
+
+## ▶️ Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Amna-Siddiqui-651/Cryptex-Hub.git
+```
+
+Open the project:
+
+```bash
+cd Cryptex-Hub
+```
+
+Run the application:
+
+```bash
+python main.py
+```
 
 ---
 
@@ -105,8 +160,21 @@ Detect spam emails using keyword-based filtering.
 
 **Amna Siddiqui**
 
-Python Developer | Cybersecurity Enthusiast | Open Source Learner
+Python Developer • Cybersecurity Enthusiast • Open Source Learner
+
+GitHub:
+https://github.com/Amna-Siddiqui-651
 
 ---
 
-⭐ If you like this project, consider giving it a Star.
+## ⭐ Support
+
+If you found this project helpful, consider giving it a ⭐ on GitHub.
+
+Your support motivates future improvements and more cybersecurity projects.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
