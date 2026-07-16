@@ -156,6 +156,12 @@ python main.py
 
 ---
 
+## 📸 Screenshots
+
+Coming Soon...
+
+---
+
 ## 👩‍💻 Author
 
 **Amna Siddiqui**
