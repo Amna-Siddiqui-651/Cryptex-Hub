@@ -31,9 +31,8 @@ def file_encryption():
 
     file_name, key, mode = generated_file()
 
-    file = open(file_name , "r")
-    content = file.read()
-    file.close()
+    with open(file_name , "r") as file:
+        content = file.read()
 
 
     result = ""
@@ -59,6 +58,5 @@ def file_encryption():
 
     new_file_name = "encrypted_" + file_name
 
-    new_file = open(new_file_name, "w")
-    new_file.write(result)
-    new_file.close()
+    with open(new_file_name, "w") as new_file:
+        new_file.write(result)

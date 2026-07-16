@@ -55,6 +55,10 @@ def spam_email_detector():
 
     def file_check():
 
+        print("======================================")
+        print("         CAESAR CIPHER")
+        print("======================================")
+
         while True:
 
             file_name = input("Enter file name(only TXT): ")
@@ -73,10 +77,9 @@ def spam_email_detector():
         
         file_name = file_check()
 
-        file = open(file_name , "r" )
-        content = file.read()
-        content = content.lower().split()
-        file.close()
+        with open(file_name , "r" ) as file:
+            content = file.read()
+            content = content.lower().split()
 
         count = 0
 
@@ -103,5 +106,7 @@ def spam_email_detector():
     else:
         print("I didn't understand!")
             
-
-        
+    
+    print("--------------------------------------")
+    print("Operation completed successfully.")
+    print("--------------------------------------")    

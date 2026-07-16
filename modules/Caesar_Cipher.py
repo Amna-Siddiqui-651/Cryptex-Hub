@@ -1,3 +1,4 @@
+
 def caesar_cipher():
 
     print("------------CAESAR CIPHER------------------")
@@ -12,7 +13,7 @@ def caesar_cipher():
                 key = int(shift_value)
                 
                 break
-            except:
+            except ValueError:
                 print("Invalid input! Please enter number here. ")
 
         while True:
@@ -55,22 +56,3 @@ def caesar_cipher():
     else:
         print("---------YOUR ENCRYPTED TEXT IS HERE-----------------")
         print(f"{result}")
-
-while True:
-
-    permission = input("Do you want to menu again!").lower()
-
-    if permission == "yes":
-        print("Enjoy The Cryptex-Hub Toolkit!")
-        break
-
-    elif permission == "no":
-        print("Thanks! to using Cryptex-Hub")
-        break
-        exit()
-
-    else:
-        print("I didn't understand! Please try again.")
-
-
-

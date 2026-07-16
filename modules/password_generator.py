@@ -7,7 +7,7 @@ def password_generator():
         try:
             length = int(input("Enter password length here: "))
             break
-        except:
+        except ValueError:
             print("Password length should be an integer!")
 
     UP_set = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"

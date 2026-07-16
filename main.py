@@ -2,6 +2,7 @@ from modules.caesar_cipher import caesar_cipher;
 from modules.file_encryption import file_encryption;
 from modules.password_generator import password_generator;
 from modules.spam_email_detector import spam_email_detector;
+from modules.about import about; 
 
 def menu_again():
     
@@ -21,7 +22,8 @@ def menu_again():
 
 
 print("=====================================")
-print("       WELCOME TO CRYPTEX-HUB       ")
+print("           CRYPTEXHUB v1.0           ")
+print("     Python Cybersecurity Toolkit     ")  
 print("======================================")
 
 menu = input("Do you want Toolkit: ").lower()
@@ -36,7 +38,8 @@ if menu == "yes":
         print("2. File Encryption") 
         print("3. Password generator")
         print("4. Spam Email Detector")
-        print("5. Exit")
+        print("5. About")
+        print("6. Exit")
         print("=================================================")
 
         choice = input("Enter your requirement here: ").lower()
@@ -57,7 +60,11 @@ if menu == "yes":
             spam_email_detector()
             menu_again()
 
-        elif choice in ["5", "exit"]:
+        elif choice in ["5", "about"]:
+            about()
+            menu_again()
+            
+        elif choice in ["6", "exit"]:
             print("Thankyou! for using Cryptex-Hub.")
             break
 
