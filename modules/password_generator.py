@@ -2,7 +2,10 @@ import random;
 
 def password_generator():
 
-    print("------PASSWORD GENERATOR-------")
+    print("======================================")
+    print("         PASSWORD GENERATOR")
+    print("======================================")
+
     while True:
         try:
             length = int(input("Enter password length here: "))
@@ -47,6 +50,10 @@ def password_generator():
             for i in range(length):
                 password += random.choice(final_pool)
             print(f"Password is here: {password}")
+            print()
+            print("--------------------------------------")
+            print("Operation completed successfully.")
+            print("--------------------------------------")
         else:
             pass 
 
@@ -56,5 +63,13 @@ def password_generator():
             password.append(random.choice(final_pool))
         random.shuffle(password)
         final_password = "".join(password)
+
+        print()
+        print("----------------------------------")
         print(f"Password is here: {final_password}")
         print("----------------------------------")
+        print()
+
+        print("--------------------------------------")
+        print("Operation completed successfully.")
+        print("--------------------------------------")

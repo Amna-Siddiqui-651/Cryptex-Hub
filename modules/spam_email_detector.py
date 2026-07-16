@@ -102,11 +102,12 @@ def spam_email_detector():
             print("SPAM EMAIL!")
         else:
             print("CONGRATULATIONS! EMAIL IS SAFE.")
+            print()
+            print("--------------------------------------")
+            print("Operation completed successfully.")
+            print("--------------------------------------")   
 
     else:
         print("I didn't understand!")
             
-    
-    print("--------------------------------------")
-    print("Operation completed successfully.")
-    print("--------------------------------------")    
+     

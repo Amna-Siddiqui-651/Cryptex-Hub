@@ -1,7 +1,9 @@
 
 def caesar_cipher():
 
-    print("------------CAESAR CIPHER------------------")
+    print("======================================")
+    print("         CAESAR CIPHER")
+    print("======================================")
 
     def generated_text():
 
@@ -56,3 +58,7 @@ def caesar_cipher():
     else:
         print("---------YOUR ENCRYPTED TEXT IS HERE-----------------")
         print(f"{result}")
+
+    print("--------------------------------------")
+    print("Operation completed successfully.")
+    print("--------------------------------------")

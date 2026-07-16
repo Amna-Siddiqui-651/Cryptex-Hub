@@ -7,7 +7,7 @@ from modules.about import about;
 def menu_again():
     
     while True:
-        permission = input("Do you want to menu again!").lower()
+        permission = input("Do you want to CRYPTEXHUB Toolkit again? (yes/no): ").lower()
 
         if permission == "yes":
             print("Enjoy The Cryptex-Hub Toolkit!")
@@ -21,14 +21,14 @@ def menu_again():
             print("I didn't understand! Please try again.")
 
 
-print("=====================================")
-print("           CRYPTEXHUB v1.0           ")
-print("     Python Cybersecurity Toolkit     ")  
+print("======================================")
+print("          CRYPTEXHUB v1.0")
+print("     Python Cybersecurity Toolkit")
 print("======================================")
 
-menu = input("Do you want Toolkit: ").lower()
+toolkit = input("Do you want CryptexHub Toolkit(yes/no): ").lower()
 
-if menu == "yes":
+if toolkit == "yes":
 
     while True:
 
@@ -42,7 +42,7 @@ if menu == "yes":
         print("6. Exit")
         print("=================================================")
 
-        choice = input("Enter your requirement here: ").lower()
+        choice = input("Enter your choice here: ").lower()
 
         if choice in ["1", "caesar cipher"]:
             caesar_cipher()
@@ -71,7 +71,7 @@ if menu == "yes":
         else:
             print("I didn't understand!")
 
-elif menu == "no":
+elif toolkit == "no":
     print("It's okay! Bye")
     exit()
 
